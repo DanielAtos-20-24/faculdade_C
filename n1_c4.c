@@ -17,9 +17,9 @@ int main() {
     float produtoInterno1;
     int pontosTuristicos1;
 
-    printf("****************\n");
-    printf("**SUPER TRUNFO**\n");
-    printf("****************\n");
+    printf("********************\n");
+    printf("**SUPER TRUNFO 1.0**\n");
+    printf("********************\n");
 
     //Primeira carta
     printf("Primeira carta: \n");
