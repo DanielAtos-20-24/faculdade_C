@@ -24,49 +24,49 @@ int main() {
     //Primeira carta
     printf("Primeira carta: \n");
     printf("Digite uma letra representando um estado, de A ao H: \n");
-    scanf("%c", letraEstado);
+    scanf("%c", &letraEstado);
 
     printf("Digite o código da carta: \n");
-    scanf("%d", codigoCarta);    
+    scanf("%d", &codigoCarta);    
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", nomeCidade);
+    scanf("%s", &nomeCidade);
 
     printf("Digite a população da cidade: \n");
-    scanf("%d", numeroPopulacao);
+    scanf("%d", &numeroPopulacao);
 
     printf("Digite a área da cidade: \n");
-    scanf("%f", areaCidade);
+    scanf("%f", &areaCidade);
 
     printf("Digite o Produto Interno Bruno: \n");
-    scanf("%f", produtoInterno);
+    scanf("%f", &produtoInterno);
 
     printf("Digite a quantidade de pontos turisticos na cidade: \n");
-    scanf("%d", pontosTuristicos);
+    scanf("%d", &pontosTuristicos);
 
     //------------------------------------------------------------
 
     printf("Segunda carta: \n");
     printf("Digite uma letra representando um estado, de A ao H: \n");
-    scanf("%c", letraEstado1);
+    scanf("%c", &letraEstado1);
 
     printf("Digite o código da carta: \n");
-    scanf("%d", codigoCarta1);    
+    scanf("%d", &codigoCarta1);    
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", nomeCidade1);
+    scanf("%s", &nomeCidade1);
 
     printf("Digite a população da cidade: \n");
-    scanf("%d", numeroPopulacao1);
+    scanf("%d", &numeroPopulacao1);
 
     printf("Digite a área da cidade: \n");
-    scanf("%f", areaCidade1);
+    scanf("%f", &areaCidade1);
 
     printf("Digite o Produto Interno Bruno: \n");
-    scanf("%f", produtoInterno1);
+    scanf("%f", &produtoInterno1);
 
     printf("Digite a quantidade de pontos turisticos na cidade: \n");
-    scanf("%d", pontosTuristicos1);
+    scanf("%d", &pontosTuristicos1);
 
     printf("CARTA 1");
     printf("Estado: %c\n", letraEstado);
@@ -85,4 +85,5 @@ int main() {
     printf("Área: %f\n", areaCidade1);
     printf("PIB: %f\n", produtoInterno1);
     printf("Número de pontos turisticos: %d\n", pontosTuristicos1);
-}
+    return 0;
+} 
