@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    //Declarei as variáveis abaixo:
     char letraEstado;
     int codigoCarta;
     char nomeCidade [20];
@@ -8,7 +9,7 @@ int main() {
     float areaCidade;
     float produtoInterno;
     int pontosTuristicos;
-
+    //Tive que repetir para fazer a carta número dois. Modifiquei somente o último caractere.
     char letraEstado1;
     int codigoCarta1;
     char nomeCidade1 [20];
@@ -22,7 +23,7 @@ int main() {
     printf("********************\n");
 
     //Primeira carta
-    printf("Primeira carta: \n");
+    printf("**Primeira carta:** \n");
     printf("Digite uma letra representando um estado, de A ao H: \n");
     scanf("%c", &letraEstado);
 
@@ -46,9 +47,11 @@ int main() {
 
     //------------------------------------------------------------
 
-    printf("Segunda carta: \n");
+    // Segunda carta.
+    printf("\n**Segunda carta:** \n");
+
     printf("Digite uma letra representando um estado, de A ao H: \n");
-    scanf("%c", &letraEstado1);
+    scanf(" %c", &letraEstado1);
 
     printf("Digite o código da carta: \n");
     scanf("%d", &codigoCarta1);    
@@ -67,8 +70,8 @@ int main() {
 
     printf("Digite a quantidade de pontos turisticos na cidade: \n");
     scanf("%d", &pontosTuristicos1);
-
-    printf("CARTA 1");
+    printf("----------------------------------------------------------");
+    printf("\nCARTA 1 \n");
     printf("Estado: %c\n", letraEstado);
     printf("Código: %d\n", codigoCarta);
     printf("Nome da Cidade: %s\n", nomeCidade);
@@ -76,8 +79,8 @@ int main() {
     printf("Área: %f\n", areaCidade);
     printf("PIB: %f\n", produtoInterno);
     printf("Número de pontos turisticos: %d\n", pontosTuristicos);
-
-    printf("CARTA 1");
+     printf("----------------------------------------------------------");
+    printf("\nCARTA 2\n");
     printf("Estado: %c\n", letraEstado1);
     printf("Código: %d\n", codigoCarta1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
