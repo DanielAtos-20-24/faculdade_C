@@ -79,13 +79,13 @@ int main() {
     printf("Área: %f\n", areaCidade);
     printf("PIB: %f\n", produtoInterno);
     printf("Número de pontos turisticos: %d\n", pontosTuristicos);
-     printf("----------------------------------------------------------");
+    printf("----------------------------------------------------------");
     printf("\nCARTA 2\n");
     printf("Estado: %c\n", letraEstado1);
     printf("Código: %d\n", codigoCarta1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
     printf("População: %d\n", numeroPopulacao1);
-    printf("Área: %f\n", areaCidade1);
+    printf("Área: %f km\n", areaCidade1);
     printf("PIB: %f\n", produtoInterno1);
     printf("Número de pontos turisticos: %d\n", pontosTuristicos1);
     return 0;
