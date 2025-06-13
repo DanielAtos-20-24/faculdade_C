@@ -8,9 +8,9 @@ int main() {
 
     //Perguntas, guardando o resultado nas variáveis.
     printf("Digite o primeiro número: \n");
-    scanf("%d", &numero1); //5
+    scanf("%d", &numero1); 
     printf("Digite o segundo número: \n");
-    scanf("%d", &numero2); //1
+    scanf("%d", &numero2); 
 
     //Utilizando variáveis junto com as somas.
     soma = numero1 + numero2;
