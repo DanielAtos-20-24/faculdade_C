@@ -28,6 +28,7 @@ int main() {
     int resultado = soma + divisao + subtracao + multiplicacao;
     
     //Resultado da contas.
+    printf("-------------------------------------------");
     printf("A soma é: %d\n", soma);
     printf("A subtraçõa é: %d\n", subtracao);
     printf("A divisão é: %d\n", divisao);
